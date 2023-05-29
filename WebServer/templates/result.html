@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="{{url_for('.static', filename='style.css')}}">
+	<title>Result</title>
+</head>
+
+<body>
+
+  <div class = "header">
+  	<h1>Prediction of Oral Cancer from different deep learning model</h1>
+  <nav id="colorNav">
+
+  <li class="blue">
+    <a href="/application" class="fa fa-cogs"></a>
+
+  </li>
+
+  <li class="yellow">
+    <a href="/" class="fa fa-home"></a>
+
+  </li>
+
+</nav>
+    </div>
+
+   <div class="bars">
+
+	<div class="circle_box" style="--x: {{data[0]}}">
+		<div>
+			<svg>
+				<circle cx="100" cy="100" r="95" />
+				<circle cx="100" cy="100" r="95" />
+			</svg>
+			<span>{{data[0]}}</span>
+		</div>
+		<strong>ANN Model</strong>
+	</div>
+	<div class="circle_box" style="--x: {{data[1]}}">
+		<div>
+			<svg>
+				<circle cx="100" cy="100" r="95" />
+				<circle cx="100" cy="100" r="95" />
+			</svg>
+			<span>{{data[1]}}</span>
+		</div>
+		<strong>AlexNet Model</strong>
+	</div>
+	<div class="circle_box" style="--x: {{data[2]}}">
+		<div>
+			<svg>
+				<circle cx="100" cy="100" r="95" />
+				<circle cx="100" cy="100" r="95" />
+			</svg>
+			<span>{{data[2]}}</span>
+		</div>
+		<strong>VGG19 Model</strong>
+	</div>
+<div class="circle_box" style="--x: {{data[3]}}">
+		<div>
+			<svg>
+				<circle cx="100" cy="100" r="95" />
+				<circle cx="100" cy="100" r="95" />
+			</svg>
+			<span>{{data[3]}}</span>
+		</div>
+		<strong>Result</strong>
+	</div>
+   </div>
+<div class="result">
+	<h1>The Status of Oral Cavity is: {{data[4]}}</h1>
+</div>
+<!-- <div class="result">
+    <button style="font-size: 30px;
+                   font-color: black;
+                   font-family: arial;
+                   background: blue;
+                   border-radius: 10px;
+                   border-width: 5px
+                   border-color: black;"
+			onclick="location.href = '/application';" id="myButton" class="float-left submit-button" >Application</button>
+</div> -->
+
+
+</body>
+
+</html>

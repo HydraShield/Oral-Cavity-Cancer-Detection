@@ -1,0 +1,211 @@
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+,:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+font-family: arial;
+	font-family: arial;
+	font-size: 16px;
+	margin: 0;
+
+	align-items: center;
+	justify-content: space-around;
+  background: radial-gradient(circle at 18.7% 37.8%, #7F00FF 0%, #E100FF 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #00b7ff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='479' height='399.2' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.2'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/svg%3E");
+
+}
+.header{
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 22px;
+}
+
+h1{
+  text-align: center;
+  margin-left : 10px;
+
+}
+.bars{
+	font-family: arial;
+	font-size: 16px;
+	margin: 0;
+/* 	background: #122325; */
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 60vh;
+}
+.result{
+    font-family: arial;
+	font-size: 20px;
+	margin: 0;
+	color: black;
+/* 	background: #122325; */
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	height: 10vh;
+}
+.result1{
+    font-family: arial;
+	font-size: 20px;
+	margin: 0;
+	color: black;
+	background: #122325;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	height: 10vh;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+svg{
+	width: 200px;
+	height: 200px;
+	transform: rotate(-90deg);
+	overflow: initial;
+}
+
+circle{
+	stroke-width:20px;
+	fill:none;
+}
+circle:nth-child(1){ stroke: white }
+circle:nth-child(2){
+	stroke: #f00;
+	position: relative;
+	z-index: 1;
+}
+.circle_box:nth-child(1) circle:nth-child(2){
+	stroke-dashoffset:calc(100 * 6);
+	stroke-dasharray:calc(100 * 6);
+	stroke-dashoffset:calc((100 * 6) - ((100 * 6) * var(--x)) / 100);
+	stroke-position: inside;
+  stroke: hsl(calc((100 - var(--x)) * 1.2), 100%, 50%);
+}
+.circle_box:nth-child(2) circle:nth-child(2){
+	stroke-dashoffset:calc(100 * 6);
+	stroke-dasharray:calc(100 * 6);
+	stroke-dashoffset:calc((100 * 6) - ((100 * 6) * var(--x)) / 100);
+  stroke: hsl(calc((100 - var(--x)) * 1.2), 100%, 50%);
+	
+}
+.circle_box:nth-child(3) circle:nth-child(2){
+	stroke-dashoffset:calc(100 * 6);
+	stroke-dasharray:calc(100 * 6);
+	stroke-dashoffset:calc((100 * 6) - ((100 * 6) * var(--x)) / 100);
+  stroke: hsl(calc((100 - var(--x)) * 1.2), 100%, 50%);
+
+}
+.circle_box:nth-child(4) circle:nth-child(2){
+	stroke-dashoffset:calc(100 * 6);
+	stroke-dasharray:calc(100 * 6);
+	stroke-dashoffset:calc((100 * 6) - ((100 * 6) * var(--x)) / 100);
+  stroke: hsl(calc((100 - var(--x)) * 1.2), 100%, 50%);
+	
+}
+.circle_box{
+	font-size: 36px;
+	color: black;
+	text-align: center;
+}
+.circle_box div{
+	position: relative;
+}
+.circle_box span{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	color: black;
+	font-size: 40px;
+  font-weight: bold;
+}
+button[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  button[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+
+nav{
+	display: block;
+  margin-left:20px;
+}
+
+
+/*----------------------------
+	The Navigation Menu
+-----------------------------*/
+
+
+
+#colorNav > li{ /* will style only the top level li */
+	list-style: none;
+	box-shadow: 0 0 10px rgba(100, 100, 100, 0.2) inset,1px 1px 1px #CCC;
+	display: inline-block;
+	line-height: 1;
+/* 	margin: 1px; */
+	border-radius: 3px;
+	position:relative;
+  margin:auto;
+  margin-top:12px;
+}
+
+#colorNav > li > a{
+	color:inherit;
+	text-decoration:none !important;
+	font-size:48px;
+	padding: 25px;
+}
+
+
+	
+	/* This is important for the show/hide CSS animation */
+
+
+
+#colorNav li a{
+	padding:10px;
+  width:50px;
+  height:50px;
+	color:#fff !important;
+	text-decoration:none !important;
+	display:block;
+}
+
+
+
+
+/*----------------------------
+	Color Themes
+-----------------------------*/
+
+
+
+#colorNav li.blue{
+  margin-left:20px;
+/*   margin-left:2px; */
+  background-color:#f8c54d;color:#ab8426;}
+#colorNav li.yellow{	
+  margin-left:24px;
+  background-color:#f8c54d;color:#ab8426;}
+
+.header{
+  display: flex;
+}
